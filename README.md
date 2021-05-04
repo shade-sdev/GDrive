@@ -77,32 +77,10 @@ Both Prerequisites will be downloaded when installing AutoSaver.
 
 1. Install & Run
 <br>
-2. Create a folder where you would like to AutoSaver to backup your saves, then select this folder<br><br> <img src="https://i.imgur.com/jwTKfdm.png">
+2. Click on info button then copy and paste ClientID and Secret Key and click authorize.
 <br>
-3. If you want to use igdb api, for searching games, <a href="https://dev.twitch.tv/console/apps/create" target="_blank">Register</a> an application, then <a href="https://dev.twitch.tv/console/apps" target="_blank">Manage</a> that application to get your clientid and secret, enter your clientid and secret on the setting window, then click on the ticket button to get your access token <br><br>  <img src="https://i.imgur.com/LfxlSiX.png">
+<img src="https://i.imgur.com/FuZF8ma.png">
 <br>
-4. Add a Game by clicking on the folder icon with a + sign, fill the form and click submit <br><br>  <img src="https://i.imgur.com/VWlRuRX.png">
-<br>
-5. Select a Game then click on the edit button to update it <br><br> <img src="https://i.imgur.com/T8tWwyU.png">
-<br>
-6. Select a Game then click on the delete button to delete it <br><br> <img src="https://i.imgur.com/mcxMKLc.png.png">
-<br>
-7. Select a Game then click on the fourth icon to manually backup its save file <br><br> <img src="https://i.imgur.com/WAlCwwv.png">
-<br>
-8. Type on the search bar, then press enter to search for a game.
-<br>
-9. When you click on a game, on the left pane its saves will appear.
-<br>
-10. Click on the swap button on any save, to swap it with the current save file of the selected game.
-<br> 
-11. Click on the X button on any save, to delete this save.
-<br>
-12. Minimizing the AutoSaver makes it go to the system tray.
-<br>
-13. Each time a save is backup, a notification will appear, both for manual and automatic backup.<br>
-14. A description is given when you hover on most buttons, labels and textboxes.<br>
-
-
 
 
 
