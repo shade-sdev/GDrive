@@ -20,24 +20,24 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-![Issues](https://img.shields.io/github/issues/shade-sdev/AutoSaver)
-![Forks](https://img.shields.io/github/forks/shade-sdev/AutoSaver)
-![Stars](https://img.shields.io/github/stars/shade-sdev/AutoSaver)
-![License](https://img.shields.io/github/license/shade-sdev/AutoSaver)
+![Issues](https://img.shields.io/github/issues/shade-sdev/GDrive)
+![Forks](https://img.shields.io/github/forks/shade-sdev/GDrive)
+![Stars](https://img.shields.io/github/stars/shade-sdev/GDrive)
+![License](https://img.shields.io/github/license/shade-sdev/GDrive)
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/shade-sdev/AutoSaver">
-    <img src="https://i.imgur.com/Dfx3Omn.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/shade-sdev/GDrive">
+    <img src="https://i.imgur.com/Ow4hamX.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">AutoSaver</h3>
+  <h3 align="center">GDrive</h3>
 
   <p align="center">
-    Automatic Save Backup Application
+    Google Drive Desktop Application
     <br />
  
   </p>
