@@ -37,6 +37,7 @@
             this.lblClientSecret = new Guna.UI.WinForms.GunaLabel();
             this.txtSecret = new Guna.UI.WinForms.GunaTextBox();
             this.btnAuthorize = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.btnInfo = new Guna.UI.WinForms.GunaAdvenceButton();
             this.SuspendLayout();
             // 
             // gunaElipse1
@@ -153,12 +154,47 @@
             this.btnAuthorize.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnAuthorize.Click += new System.EventHandler(this.btnAuthorize_Click);
             // 
+            // btnInfo
+            // 
+            this.btnInfo.AnimationHoverSpeed = 0.07F;
+            this.btnInfo.AnimationSpeed = 0.03F;
+            this.btnInfo.BackColor = System.Drawing.Color.Transparent;
+            this.btnInfo.BaseColor = System.Drawing.Color.RoyalBlue;
+            this.btnInfo.BorderColor = System.Drawing.Color.Black;
+            this.btnInfo.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.btnInfo.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnInfo.CheckedForeColor = System.Drawing.Color.White;
+            this.btnInfo.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnInfo.CheckedImage")));
+            this.btnInfo.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnInfo.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnInfo.FocusedColor = System.Drawing.Color.Empty;
+            this.btnInfo.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnInfo.ForeColor = System.Drawing.Color.White;
+            this.btnInfo.Image = ((System.Drawing.Image)(resources.GetObject("btnInfo.Image")));
+            this.btnInfo.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnInfo.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnInfo.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnInfo.Location = new System.Drawing.Point(486, 66);
+            this.btnInfo.Name = "btnInfo";
+            this.btnInfo.OnHoverBaseColor = System.Drawing.Color.CornflowerBlue;
+            this.btnInfo.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnInfo.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnInfo.OnHoverImage = null;
+            this.btnInfo.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnInfo.OnPressedColor = System.Drawing.Color.Black;
+            this.btnInfo.Radius = 2;
+            this.btnInfo.Size = new System.Drawing.Size(30, 30);
+            this.btnInfo.TabIndex = 6;
+            this.btnInfo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnInfo.Click += new System.EventHandler(this.btnInfo_Click);
+            // 
             // Settings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
             this.ClientSize = new System.Drawing.Size(550, 250);
+            this.Controls.Add(this.btnInfo);
             this.Controls.Add(this.btnAuthorize);
             this.Controls.Add(this.lblClientSecret);
             this.Controls.Add(this.txtSecret);
@@ -185,5 +221,6 @@
         private Guna.UI.WinForms.GunaLabel lblClientSecret;
         private Guna.UI.WinForms.GunaTextBox txtSecret;
         private Guna.UI.WinForms.GunaAdvenceButton btnAuthorize;
+        private Guna.UI.WinForms.GunaAdvenceButton btnInfo;
     }
 }

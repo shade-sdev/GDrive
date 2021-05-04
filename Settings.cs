@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace GDrive
@@ -21,6 +22,14 @@ namespace GDrive
         {
             txtClientId.Text = constants.clientId;
             txtSecret.Text = constants.clientSecret;
+        }
+
+        private void btnInfo_Click(object sender, EventArgs e)
+        {
+            Process myProcess = new Process();
+            myProcess.StartInfo.FileName = "chrome.exe"; 
+            myProcess.StartInfo.Arguments = Environment.CurrentDirectory + @"\" + "index.html";
+            myProcess.Start();
         }
     }
 }
