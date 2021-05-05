@@ -75,8 +75,7 @@ Both Prerequisites will be downloaded when installing AutoSaver.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-0. Get ClientID and SecretKey: 
-<iframe src="https://shade-sdev.github.io/GDrive/" title="description">
+0. Get ClientID and SecretKey: https://shade-sdev.github.io/GDrive/
 <br>
 1. Install & Run
 <br>
