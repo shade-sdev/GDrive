@@ -48,9 +48,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="https://i.imgur.com/c7QDEKo.png" width="1200px" height="600px">
+<img src="https://i.imgur.com/1xDEHWx.png" width="1200px" height="600px">
 
-**The aim of this project was to build an automated game save backup system, which would backup your save files everytime a game process is ended, provided that this game is included on AutoSaver.*
+**The aim of this project was to build a desktop app to quickly upload files, and switch between users in a swift.*
 
 
 ### Built With
@@ -77,35 +77,39 @@ Both Prerequisites will be downloaded when installing AutoSaver.
 
 1. Install & Run
 <br>
-2. Create a folder where you would like to AutoSaver to backup your saves, then select this folder<br><br> <img src="https://i.imgur.com/jwTKfdm.png">
+2. Click on info button then copy and paste ClientID and Secret Key and click authorize.
 <br>
-3. If you want to use igdb api, for searching games, <a href="https://dev.twitch.tv/console/apps/create" target="_blank">Register</a> an application, then <a href="https://dev.twitch.tv/console/apps" target="_blank">Manage</a> that application to get your clientid and secret, enter your clientid and secret on the setting window, then click on the ticket button to get your access token <br><br>  <img src="https://i.imgur.com/LfxlSiX.png">
+<img src="https://i.imgur.com/FuZF8ma.png">
 <br>
-4. Add a Game by clicking on the folder icon with a + sign, fill the form and click submit <br><br>  <img src="https://i.imgur.com/VWlRuRX.png">
+3. Make sure to added all gmail accounts you will use in step 2, login to your gmail account. Allow and accept all permissions.
 <br>
-5. Select a Game then click on the edit button to update it <br><br> <img src="https://i.imgur.com/T8tWwyU.png">
+<img src="https://i.imgur.com/zG9XyQ6.png">
 <br>
-6. Select a Game then click on the delete button to delete it <br><br> <img src="https://i.imgur.com/mcxMKLc.png.png">
+4. To upload a file, simply drag and drop or click on upload button and select a file.
 <br>
-7. Select a Game then click on the fourth icon to manually backup its save file <br><br> <img src="https://i.imgur.com/WAlCwwv.png">
+<img src="https://i.imgur.com/tJPyMue.png">
 <br>
-8. Type on the search bar, then press enter to search for a game.
+<img src="https://i.imgur.com/uS3wVKh.png">
+5. To share a file simply click on the share icon on the row that the file is.
 <br>
-9. When you click on a game, on the left pane its saves will appear.
+<img src="https://i.imgur.com/Nq0cSWx.png">
 <br>
-10. Click on the swap button on any save, to swap it with the current save file of the selected game.
-<br> 
-11. Click on the X button on any save, to delete this save.
+6. To delete a file simply click on the share icon on the row that the file is.
 <br>
-12. Minimizing the AutoSaver makes it go to the system tray.
+<img src="https://i.imgur.com/2V3cHKO.png">
 <br>
-13. Each time a save is backup, a notification will appear, both for manual and automatic backup.<br>
-14. A description is given when you hover on most buttons, labels and textboxes.<br>
-
-
-
-
-
+7. To search for a file, type on the search bar and press enter
+<br>
+<img src="https://i.imgur.com/pP7KrOJ.png">
+<br>
+8. To add another account, right click on your avatar on the top right and click add account, then login again as step 3.
+<br>
+<img src="https://i.imgur.com/jRHPCWW.png">
+<br>
+8. To switch  account, right click on your avatar on the top right and click on another account email, no need to login again.
+<br>
+<img src="https://i.imgur.com/yVgCcJP.png">
+<img src="https://i.imgur.com/Dpc66Eb.png">
 <!-- LICENSE -->
 ## License
 
@@ -118,7 +122,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Shade 
 
-Project Link: [https://github.com/shade-sdev/AutoSaver](https://github.com/shade-sdev/AutoSaver)
+Project Link: [https://github.com/shade-sdev/GDrive](https://github.com/shade-sdev/GDrive)
 
 
 
