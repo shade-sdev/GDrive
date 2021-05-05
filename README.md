@@ -48,7 +48,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="https://i.imgur.com/c7QDEKo.png" width="1200px" height="600px">
+<img src="https://i.imgur.com/1xDEHWx.png" width="1200px" height="600px">
 
 **The aim of this project was to build an automated game save backup system, which would backup your save files everytime a game process is ended, provided that this game is included on AutoSaver.*
 
@@ -81,9 +81,22 @@ Both Prerequisites will be downloaded when installing AutoSaver.
 <br>
 <img src="https://i.imgur.com/FuZF8ma.png">
 <br>
-
-
-
+3. Make sure to added all gmail accounts you will use in step 2, login to your gmail account. Allow and accept all permissions.
+<br>
+<img src="https://i.imgur.com/zG9XyQ6.png">
+<br>
+4. To upload a file, simply drag and drop or click on upload button and select a file.
+<br>
+<img src="https://i.imgur.com/tJPyMue.png">
+<br>
+<img src="https://i.imgur.com/uS3wVKh.png">
+5. To share a file simply click on the share icon on the row that the file is.
+<br>
+<img src="https://i.imgur.com/Nq0cSWx.png">
+<br>
+6. To delete a file simply click on the share icon on the row that the file is.
+<br>
+<img src="https://i.imgur.com/2V3cHKO.png">
 <!-- LICENSE -->
 ## License
 
@@ -96,7 +109,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Shade 
 
-Project Link: [https://github.com/shade-sdev/AutoSaver](https://github.com/shade-sdev/AutoSaver)
+Project Link: [https://github.com/shade-sdev/GDrive](https://github.com/shade-sdev/GDrive)
 
 
 
