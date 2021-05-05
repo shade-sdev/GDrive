@@ -26,10 +26,7 @@ namespace GDrive
 
         private void btnInfo_Click(object sender, EventArgs e)
         {
-            Process myProcess = new Process();
-            myProcess.StartInfo.FileName = "chrome.exe"; 
-            myProcess.StartInfo.Arguments = Environment.CurrentDirectory + @"\" + "index.html";
-            myProcess.Start();
+            System.Diagnostics.Process.Start("index.html");
         }
     }
 }

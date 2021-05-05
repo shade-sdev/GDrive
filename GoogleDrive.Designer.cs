@@ -63,6 +63,7 @@
             this.gunaDragControl4 = new Guna.UI.WinForms.GunaDragControl(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.gunaElipse2 = new Guna.UI.WinForms.GunaElipse(this.components);
+            this.gunaControlBox1 = new Guna.UI.WinForms.GunaControlBox();
             this.topPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.googleDrivePic)).BeginInit();
             this.searchPanel.SuspendLayout();
@@ -82,6 +83,7 @@
             // topPanel
             // 
             this.topPanel.BackColor = System.Drawing.Color.White;
+            this.topPanel.Controls.Add(this.gunaControlBox1);
             this.topPanel.Controls.Add(this.btnInfo);
             this.topPanel.Controls.Add(this.googleDrivePic);
             this.topPanel.Controls.Add(this.searchPanel);
@@ -113,7 +115,7 @@
             this.btnInfo.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnInfo.ImageSize = new System.Drawing.Size(22, 22);
             this.btnInfo.LineColor = System.Drawing.Color.White;
-            this.btnInfo.Location = new System.Drawing.Point(730, 26);
+            this.btnInfo.Location = new System.Drawing.Point(715, 26);
             this.btnInfo.Name = "btnInfo";
             this.btnInfo.OnHoverBaseColor = System.Drawing.Color.White;
             this.btnInfo.OnHoverBorderColor = System.Drawing.Color.White;
@@ -143,7 +145,7 @@
             this.searchPanel.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(242)))), ((int)(((byte)(248)))));
             this.searchPanel.Controls.Add(this.txtSearch);
             this.searchPanel.Controls.Add(this.searchPic);
-            this.searchPanel.Location = new System.Drawing.Point(259, 22);
+            this.searchPanel.Location = new System.Drawing.Point(254, 22);
             this.searchPanel.Name = "searchPanel";
             this.searchPanel.Radius = 15;
             this.searchPanel.Size = new System.Drawing.Size(430, 35);
@@ -160,7 +162,7 @@
             this.txtSearch.FocusedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(172)))), ((int)(((byte)(191)))));
             this.txtSearch.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(172)))), ((int)(((byte)(191)))));
-            this.txtSearch.Location = new System.Drawing.Point(48, 3);
+            this.txtSearch.Location = new System.Drawing.Point(50, 3);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.PasswordChar = '\0';
             this.txtSearch.SelectedText = "";
@@ -175,7 +177,7 @@
             this.searchPic.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("searchPic.BackgroundImage")));
             this.searchPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.searchPic.BaseColor = System.Drawing.Color.Transparent;
-            this.searchPic.Location = new System.Drawing.Point(14, 7);
+            this.searchPic.Location = new System.Drawing.Point(9, 7);
             this.searchPic.Name = "searchPic";
             this.searchPic.Size = new System.Drawing.Size(20, 20);
             this.searchPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -202,7 +204,7 @@
             this.btnSettings.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnSettings.ImageSize = new System.Drawing.Size(22, 22);
             this.btnSettings.LineColor = System.Drawing.Color.White;
-            this.btnSettings.Location = new System.Drawing.Point(765, 26);
+            this.btnSettings.Location = new System.Drawing.Point(750, 26);
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.OnHoverBaseColor = System.Drawing.Color.White;
             this.btnSettings.OnHoverBorderColor = System.Drawing.Color.White;
@@ -224,7 +226,7 @@
             this.lblNameShort.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.lblNameShort.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNameShort.ForeColor = System.Drawing.Color.Transparent;
-            this.lblNameShort.Location = new System.Drawing.Point(929, 28);
+            this.lblNameShort.Location = new System.Drawing.Point(901, 28);
             this.lblNameShort.Name = "lblNameShort";
             this.lblNameShort.Size = new System.Drawing.Size(23, 23);
             this.lblNameShort.TabIndex = 2;
@@ -234,7 +236,7 @@
             // avatarPic
             // 
             this.avatarPic.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
-            this.avatarPic.Location = new System.Drawing.Point(922, 22);
+            this.avatarPic.Location = new System.Drawing.Point(894, 22);
             this.avatarPic.Name = "avatarPic";
             this.avatarPic.Size = new System.Drawing.Size(35, 35);
             this.avatarPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -246,7 +248,7 @@
             // 
             this.lblName.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblName.ForeColor = System.Drawing.Color.Silver;
-            this.lblName.Location = new System.Drawing.Point(826, 30);
+            this.lblName.Location = new System.Drawing.Point(788, 29);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(100, 23);
             this.lblName.TabIndex = 1;
@@ -491,6 +493,21 @@
             this.gunaElipse2.Radius = 8;
             this.gunaElipse2.TargetControl = this;
             // 
+            // gunaControlBox1
+            // 
+            this.gunaControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaControlBox1.AnimationHoverSpeed = 0.07F;
+            this.gunaControlBox1.AnimationSpeed = 0.03F;
+            this.gunaControlBox1.IconColor = System.Drawing.Color.Blue;
+            this.gunaControlBox1.IconSize = 15F;
+            this.gunaControlBox1.Location = new System.Drawing.Point(959, 0);
+            this.gunaControlBox1.Name = "gunaControlBox1";
+            this.gunaControlBox1.OnHoverBackColor = System.Drawing.Color.White;
+            this.gunaControlBox1.OnHoverIconColor = System.Drawing.Color.Blue;
+            this.gunaControlBox1.OnPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.gunaControlBox1.Size = new System.Drawing.Size(45, 29);
+            this.gunaControlBox1.TabIndex = 6;
+            // 
             // GoogleDrive
             // 
             this.AllowDrop = true;
@@ -556,5 +573,6 @@
         private Guna.UI.WinForms.GunaDragControl gunaDragControl4;
         private System.Windows.Forms.Timer timer1;
         private Guna.UI.WinForms.GunaElipse gunaElipse2;
+        private Guna.UI.WinForms.GunaControlBox gunaControlBox1;
     }
 }
