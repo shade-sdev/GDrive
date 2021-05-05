@@ -50,7 +50,7 @@
 
 <img src="https://i.imgur.com/1xDEHWx.png" width="1200px" height="600px">
 
-**The aim of this project was to build an automated game save backup system, which would backup your save files everytime a game process is ended, provided that this game is included on AutoSaver.*
+**The aim of this project was to build a desktop app to quickly upload files, and switch between users in a swift.*
 
 
 ### Built With
