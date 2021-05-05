@@ -97,6 +97,19 @@ Both Prerequisites will be downloaded when installing AutoSaver.
 6. To delete a file simply click on the share icon on the row that the file is.
 <br>
 <img src="https://i.imgur.com/2V3cHKO.png">
+<br>
+7. To search for a file, type on the search bar and press enter
+<br>
+<img src="https://i.imgur.com/pP7KrOJ.png">
+<br>
+8. To add another account, right click on your avatar on the top right and click add account, then login again as step 3.
+<br>
+<img src="https://i.imgur.com/jRHPCWW.png">
+<br>
+8. To switch  account, right click on your avatar on the top right and click on another account email, no need to login again.
+<br>
+<img src="https://i.imgur.com/yVgCcJP.png">
+<img src="https://i.imgur.com/Dpc66Eb.png">
 <!-- LICENSE -->
 ## License
 
