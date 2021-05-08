@@ -89,7 +89,7 @@ Both Prerequisites will be downloaded when installing AutoSaver.
 <br>
 4. To upload a file, simply drag and drop or click on upload button and select a file.
 <br>
-<img src="https://i.imgur.com/tJPyMue.png">
+<img src="https://i.imgur.com/Yc9baiT.png">
 <br>
 <img src="https://i.imgur.com/uS3wVKh.png">
 5. To share a file simply click on the share icon on the row that the file is.
