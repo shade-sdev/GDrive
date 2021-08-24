@@ -31,7 +31,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/shade-sdev/GDrive">
-    <img src="https://i.imgur.com/IHJUtdz.png" alt="Logo" width="80" height="80">
+    <img src="https://i.imgur.com/Ow4hamX.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">GDrive</h3>
